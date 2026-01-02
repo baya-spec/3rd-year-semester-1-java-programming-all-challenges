@@ -39,7 +39,7 @@ A modern, minimalist personal diary application built with JavaFX. This applicat
 
 ## How to Use
 
-1. **Launch the Application**: Run `com.diary.DiaryApplication`.
+1. **Launch the Application**: terminal "mvn clean javafx:run"`.
 2. **Create an Entry**: Click "New Entry", enter a title, write your thoughts in the editor, and click "Save".
 3. **View an Entry**: Click on any entry in the sidebar list to view and edit it.
 4. **Search**: Type in the search bar at the top to filter the list of entries.
