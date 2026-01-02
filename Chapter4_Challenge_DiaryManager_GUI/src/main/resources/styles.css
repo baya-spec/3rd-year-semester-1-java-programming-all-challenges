@@ -1,0 +1,155 @@
+.root-pane {
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.sidebar {
+    -fx-background-color: linear-gradient(to bottom, #A0D8EF, #B0E0FF);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.app-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 0 0 20 0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 2, 0, 0, 1);
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10 15;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.nav-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-background-radius: 5;
+}
+
+.section-header {
+    -fx-font-size: 12px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-padding: 15 0 5 0;
+    -fx-opacity: 0.9;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 5;
+}
+
+.list-cell {
+    -fx-background-color: #FAFAFA;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 5, 0, 0, 2);
+    -fx-padding: 10;
+    -fx-border-color: transparent;
+    -fx-margin: 0 0 10 0;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #E0F7FA;
+    -fx-border-color: #40E0D0;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+}
+
+.list-cell:empty {
+    -fx-background-color: transparent;
+    -fx-effect: null;
+}
+
+.action-button {
+    -fx-background-color: #40E0D0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0, 0, 1);
+}
+
+.action-button:hover {
+    -fx-background-color: #00BFA5;
+}
+
+.delete-button {
+    -fx-background-color: #FF8A80;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+}
+
+.delete-button:hover {
+    -fx-background-color: #D32F2F;
+}
+
+.text-field {
+    -fx-background-radius: 20;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 20;
+    -fx-padding: 8 15;
+    -fx-background-color: #FAFAFA;
+}
+
+.text-field:focused {
+    -fx-border-color: #40E0D0;
+    -fx-background-color: #FFFFFF;
+}
+
+.entry-title-field {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #E0E0E0;
+    -fx-padding: 5;
+    -fx-text-fill: #333333;
+}
+
+.entry-title-field:focused {
+    -fx-border-color: #40E0D0;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    -fx-background-color: #2D2D2D;
+}
+
+.dark-mode .list-cell {
+    -fx-background-color: #3D3D3D;
+    -fx-text-fill: #FFFFFF;
+}
+
+.dark-mode .list-cell Label {
+    -fx-text-fill: #FFFFFF;
+}
+
+.dark-mode .text-field {
+    -fx-background-color: #3D3D3D;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-color: #555555;
+}
+
+.dark-mode .entry-title-field {
+    -fx-text-fill: #FFFFFF;
+    -fx-border-color: #555555;
+}
+
+.dark-mode .status-bar {
+    -fx-background-color: #333333;
+    -fx-border-color: #444444;
+}
+
+.dark-mode .status-label {
+    -fx-text-fill: #AAAAAA;
+}
